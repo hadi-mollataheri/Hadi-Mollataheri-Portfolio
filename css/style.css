@@ -1,0 +1,15 @@
+html {
+    font-size: 16px;
+}
+
+/* Style the navigation bar */
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+/* ---------------------------*/
