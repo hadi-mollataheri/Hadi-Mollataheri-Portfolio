@@ -15,4 +15,10 @@ nav ul li {
 .nav-left a{
     text-decoration: none;
 }
+
+.font-logo {
+    font-family: 'Bacasime Antique', 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
 /* ---------------------------*/
