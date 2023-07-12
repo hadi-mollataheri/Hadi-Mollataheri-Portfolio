@@ -75,15 +75,20 @@ main {
     font-family: "Nunito", sans-serif;
     text-align: center;
 }
-
+    /* About me section */
 h1 {
-    font-size: 32px;
+    font-size: 2rem;
     text-align: center;
 }
 
 .about-me .text-about-me {
     text-align: justify;
     word-spacing: -0.1rem;
+}
+    /* Project section */
+        /* Fixing the vertical nonalignment of the h2 and ul elements*/
+.projects ul {
+    padding-left: 0;
 }
 
 .projects ul li {
