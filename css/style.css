@@ -12,4 +12,7 @@ nav ul {
 nav ul li {
     display: inline-block;
 }
+.nav-left a{
+    text-decoration: none;
+}
 /* ---------------------------*/
