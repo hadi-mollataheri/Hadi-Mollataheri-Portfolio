@@ -73,9 +73,14 @@ nav ul li {
 /* Style the main section */
 main {
     font-family: "Nunito", sans-serif;
+    text-align: center;
 }
 
 h1 {
     font-size: 32px;
     text-align: center;
+}
+
+.about-me .text-about-me {
+    text-align: justify;
 }
