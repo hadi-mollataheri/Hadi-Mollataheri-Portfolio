@@ -9,6 +9,7 @@ body {
 
 /* Style the navigation bar */
 nav ul {
+    font-size: 1.125rem;
     display: flex;
     justify-content: space-between;
     padding: 0 0.625rem;
@@ -26,7 +27,7 @@ nav ul li {
 .font-logo {
     font-family: 'Bacasime Antique', 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     color: #e46e07;
 }
     /* Right navigation bar */
@@ -68,3 +69,4 @@ nav ul li {
     background-color: #2a97ad;
 }
 /* ---------------------------*/
+
