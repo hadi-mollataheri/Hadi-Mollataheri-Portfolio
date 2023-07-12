@@ -17,7 +17,8 @@ nav ul {
 nav ul li {
     display: inline-block;
 }
-.nav-left a{
+
+.nav-left a {
     text-decoration: none;
     color: #2a97ad;
 }
@@ -26,6 +27,23 @@ nav ul li {
     font-family: 'Bacasime Antique', 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 1.125rem;
-    color: #BA5700;
+    color: #e46e07;
+}
+
+.nav-right a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.nav-right a:visited {
+    color: #FFF;
+}
+
+.nav-right a:hover {
+    color: #e46e07;
+}
+
+.nav-right a:active {
+    color: #2a97ad;
 }
 /* ---------------------------*/
