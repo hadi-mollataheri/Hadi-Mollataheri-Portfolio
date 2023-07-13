@@ -81,7 +81,7 @@ main {
     text-align: center;
 }
 
-    /* About me section */
+/* About me section */
 h1 {
     font-size: 2rem;
     text-align: center;
@@ -92,6 +92,7 @@ h1 {
 .projects,
 .skills {
     margin: 3.125rem 0;
+    padding: 1% 0;
 }
 
 .about-me:hover {
@@ -106,8 +107,8 @@ h1 {
     margin: 1rem 15%
 }
 
-    /* Project section */
-     /* Fixing the vertical nonalignment of the h2 and ul elements*/
+/* Project section */
+/* Fixing the vertical nonalignment of the h2 and ul elements*/
 .projects:hover {
     color: #2a97ad;
     background-color: rgb(48, 47, 47);
@@ -122,9 +123,14 @@ h1 {
     display: block;
 }
 
-    /* Skills section */
+/* Skills section */
 .skills:hover {
     color: #2a97ad;
     background-color: rgb(48, 47, 47);
     transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
-};
+}
+
+i {
+    padding-bottom: 4.5%;
+}
+
