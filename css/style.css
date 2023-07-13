@@ -85,6 +85,12 @@ main {
 h1 {
     font-size: 2rem;
     text-align: center;
+    margin: 3.75rem 0;
+}
+
+.about-me,
+.projects,
+.skills {
     margin: 3.125rem 0;
 }
 
@@ -97,6 +103,7 @@ h1 {
 .about-me .text-about-me {
     text-align: justify;
     word-spacing: -0.1rem;
+    margin: 1rem 15%
 }
 
     /* Project section */
