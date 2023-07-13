@@ -75,3 +75,10 @@ nav ul li {
     background-color: #2a97ad;
 }
 /* -------------------------------------*/
+
+
+/* Main section */
+main {
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+}
