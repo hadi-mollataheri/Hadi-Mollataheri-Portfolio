@@ -92,3 +92,8 @@ h1 {
     margin: 3.75rem 0;
 }
 
+/* Form section */
+label {
+    display: inline-block;
+    margin-bottom: 0.3125rem;
+}
