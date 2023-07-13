@@ -93,11 +93,23 @@ h1 {
 }
 
 /* Form section */
+form {
+    width: 60%;
+    margin: 0 auto;
+    border: 0.0625rem solid #FFF;
+    border-width: medium;
+    padding: 2%;
+}
+
 label {
     display: inline-block;
     margin-bottom: 0.3125rem;
 }
 
+
+/* ---------------------------------------------- */
+
+/* Accounts section */
 .accounts {
     margin-top: 4.125rem;
 }
