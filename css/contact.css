@@ -12,8 +12,10 @@ body {
 
 /* navigation bar */
 nav ul {
+    font-size: 1.125rem;
     display: flex;
     justify-content: space-between;
+    padding: 0 0.625rem;
 }
 
 nav ul li {
