@@ -1,3 +1,14 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(34, 33, 33);
+    color: #FFF;
+    margin: 1.25rem;
+}
+/* -------------------------------------- */
+
 
 /* navigation bar */
 nav ul {
