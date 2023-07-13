@@ -21,3 +21,44 @@ nav ul li {
     font-size: 1.25rem;
     color: #e46e07;
 }
+
+/* Right navigation bar */
+.nav-right a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.nav-right a:visited {
+    color: #FFF;
+}
+
+.nav-right a:hover {
+    color: #e46e07;
+}
+
+.nav-right a:active {
+    color: #2a97ad;
+}
+
+/* Right navigation bar button */
+.nav-right button {
+    font-weight: bold;
+    text-transform: uppercase;
+    border-color: #FFF;
+    border-radius: 4px;
+}
+
+.nav-right button:hover {
+    background-color: #e46e07;
+    /* 1.5 px & 6.5 */
+    padding: 0.09375rem 0.40625rem;
+    border-color: #000;
+    transition: background-color 0.1s ease-in;
+}
+
+.nav-right button:active {
+    font-size: 0.75rem;
+    transition: font-size 0.1s ease-in-out;
+    background-color: #2a97ad;
+}
+/* -------------------------------------*/
