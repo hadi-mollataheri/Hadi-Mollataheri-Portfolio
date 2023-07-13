@@ -7,6 +7,7 @@ body {
     color: #FFF;
     margin: 1.25rem;
 }
+
 /* -------------------------------------- */
 
 
@@ -74,6 +75,7 @@ nav ul li {
     transition: font-size 0.1s ease-in-out;
     background-color: #2a97ad;
 }
+
 /* -------------------------------------*/
 
 
@@ -82,3 +84,11 @@ main {
     font-family: "Nunito", sans-serif;
     text-align: center;
 }
+
+/* Banner section */
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 3.75rem 0;
+}
+
