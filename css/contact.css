@@ -105,7 +105,21 @@ label {
     display: inline-block;
     margin-bottom: 0.3125rem;
 }
+/* Style the submit button */
+.submit input {
+    border-radius: 5px;
+    padding: 2%;
+}
 
+.submit input:hover {
+    background-color: #e46e07;
+    cursor: pointer;
+}
+
+.submit input:active {
+    background-color:#2a97ad;
+    font-size: 0.875em;
+}
 
 /* ---------------------------------------------- */
 
