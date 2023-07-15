@@ -12,7 +12,7 @@ body {
 
 /* Style the navigation bar */
 nav {
-    width: 100%;
+    width: 100%; /* because all unnecessary space will with position set to fixed */
     box-sizing: border-box;
     position: fixed;
     top: 0px;
