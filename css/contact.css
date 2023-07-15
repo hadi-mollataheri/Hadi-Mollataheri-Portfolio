@@ -12,6 +12,17 @@ body {
 
 
 /* navigation bar */
+nav {
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 2%;
+    background-color: rgb(48, 47, 47);
+}
+
 nav ul {
     font-size: 1.125rem;
     display: flex;
@@ -81,6 +92,8 @@ nav ul li {
 
 /* Main section */
 main {
+    position: relative;
+    top: 100px;
     font-family: "Nunito", sans-serif;
     text-align: center;
 }
