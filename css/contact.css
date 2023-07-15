@@ -87,7 +87,7 @@ main {
 
 /* Banner section */
 h1 {
-    font-size: 2rem;
+    font-size: 2em;
     text-align: center;
     margin: 3.75rem 0;
 }
@@ -126,4 +126,13 @@ label {
 /* Accounts section */
 .accounts {
     margin-top: 4.125rem;
+}
+
+.accounts i {
+    color:#2a97ad;
+    padding: 1%;
+}
+
+.accounts i:hover {
+    color:#e46e07;
 }
