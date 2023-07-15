@@ -105,6 +105,7 @@ label {
     display: inline-block;
     margin-bottom: 0.3125rem;
 }
+
 /* Style the submit button */
 .submit input {
     border-radius: 5px;
@@ -117,7 +118,7 @@ label {
 }
 
 .submit input:active {
-    background-color:#2a97ad;
+    background-color: #2a97ad;
     font-size: 0.875em;
 }
 
@@ -129,10 +130,12 @@ label {
 }
 
 .accounts i {
-    color:#2a97ad;
+    color: #2a97ad;
     padding: 1%;
 }
 
 .accounts i:hover {
-    color:#e46e07;
+    color: #e46e07;
 }
+
+/* ---------------------------------------------- */
