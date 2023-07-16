@@ -6,6 +6,8 @@ const body = document.getElementsByTagName('body')[0];
 const aboutMe = document.querySelector('.about-me');
 const projects = document.querySelector('.projects');
 const skills = document.querySelector('.skills');
+
+const blackSlash = document.getElementById('black-slash');
 // When this element is clicked turn the background color of the main element to white and the color to black so as the 3 main sections
 // Write the Event handler function
 function changeColors() {
@@ -20,6 +22,8 @@ function changeColors() {
 
     skills.style.backgroundColor = '#FFF';
     skills.style.color = '#000';
+
+    blackSlash.style.color = '#FFF';
 }
 // Add an Event Handler for it(name and function)
 themeButton.addEventListener('click', changeColors);
