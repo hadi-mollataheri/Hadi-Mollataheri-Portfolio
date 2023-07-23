@@ -1,154 +1,217 @@
 html {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 body {
-    background-color: rgb(34, 33, 33);
-    color: #FFF;
-    margin: 1.25rem;
+  /* Create variables for colors of page --css-variable-name: css property value;  */
+  --color-dark-bg: rgb(48, 47, 47);
+  --color-dark-text: #fff;
+  --color-dark-bg-hover-button: #e46e07;
+  --color-dark-text-active-button: #2a97ad;
+  background-color: var(--color-dark-bg);
+  color: #fff;
+  margin: 1.25rem;
 }
 
+body.light {
+  color: #000;
+  background-color: #f7f7f7;
+}
 /* -------------------------------------- */
-
 
 /* Style the navigation bar */
 nav {
-    width: 100%; /* because all unnecessary space will with position set to fixed */
-    box-sizing: border-box;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: 999;
-    padding: 1%;
-    background-color:rgb(48, 47, 47);
+  width: 100%; /* because all unnecessary space will with position set to fixed */
+  box-sizing: border-box;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  padding: 1%;
+  background-color: var(--color-dark-bg);
+}
+
+nav.light {
+  background-color: #f7f7f7;
 }
 
 nav ul {
-    font-size: 1.125rem;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 0.625rem;
+  font-size: 1.125rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.625rem;
 }
 
 nav ul li {
-    display: inline-block;
+  display: inline-block;
 }
 
 /* Left navigation bar */
 .nav-left a {
-    text-decoration: none;
-    color: #2a97ad;
+  text-decoration: none;
+  color: #2a97ad;
 }
 
 .font-logo {
-    font-family: 'Bacasime Antique', 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 1.25rem;
-    color: #e46e07;
+  font-family: "Bacasime Antique", "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #e46e07;
 }
 
 /* Right navigation bar */
+.nav-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-right a {
+  margin-right: 0.5em;
+}
+
 .nav-right a:link {
-    color: #FFF;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-right a.light:link {
+  color: #000;
 }
 
 .nav-right a:visited {
-    color: #FFF;
+  color: #fff;
+}
+
+.nav-right a.light:visited {
+  color: #000;
 }
 
 .nav-right a:hover {
-    color: #e46e07;
+  color: #e46e07;
+}
+
+.nav-right a.light:hover {
+  color: #e46e07;
 }
 
 .nav-right a:active {
-    color: #2a97ad;
+  color: #2a97ad;
+}
+
+.nav-right a.light:active {
+  color: #2a97ad;
 }
 
 /* Right navigation bar button */
-.nav-right button {
-    font-weight: bold;
-    text-transform: uppercase;
-    border-color: #FFF;
-    border-radius: 4px;
+.theme-toggle-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5em;
+  color: var(--color-dark-text);
+  background-color: var(--color-dark-bg);
+  border: none;
+  border-radius: 3em;
+  cursor: pointer;
+  padding: 0.5em;
 }
 
-.nav-right button:hover {
-    background-color: #e46e07;
-    /* 1.5 px & 6.5 */
-    padding: 0.09375rem 0.40625rem;
-    border-color: #000;
-    transition: background-color 0.1s ease-in;
+button.light {
+  color: #000;
+  background-color: #f7f7f7;
 }
 
-.nav-right button:active {
-    font-size: 0.75rem;
-    transition: font-size 0.1s ease-in-out;
-    background-color: #2a97ad;
+.theme-toggle-button:hover {
+  background-color: var(--color-dark-bg-hover-button);
+  transform: scale(1.09);
+}
+
+.theme-toggle-button:active {
+  background-color: var(--color-dark-text-active-button);
+  transform: scale(0.9);
+}
+
+svg.theme-icon {
+  width: 1.7em;
+  margin-right: 0.3em;
+  filter: invert(99%) sepia(1%) saturate(600%) hue-rotate(349deg)
+    brightness(108%) contrast(100%);
+}
+
+svg.light {
+  filter: invert(0%) sepia(100%) saturate(7500%) hue-rotate(347deg)
+    brightness(89%) contrast(111%);
 }
 
 /* -------------------------------------*/
 
-
 /* Style the main section */
 main {
-    position: relative;
-    top: 100px;
-    font-family: "Nunito", sans-serif;
-    text-align: center;
+  position: relative;
+  top: 100px;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
 }
 
 /* About me section */
 h1 {
-    font-size: 2rem;
-    text-align: center;
-    margin: 3.75rem 0;
+  font-size: 2rem;
+  text-align: center;
+  margin: 3.75rem 0;
 }
 
 .about-me,
 .projects,
 .skills {
-    margin: 3.125rem 0;
-    padding: 1% 0;
+  margin: 3.125rem 0;
+  padding: 1% 0;
 }
 
 .about-me:hover {
-    color: #2a97ad;
-    background-color: rgb(48, 47, 47);
-    transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
+  color: #2a97ad;
+  background-color: rgb(48, 47, 47);
+  transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+section.light:hover {
+  color: #000;
+  background-color: #2a97ad;
+  transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .about-me .text-about-me {
-    text-align: justify;
-    word-spacing: -0.1rem;
-    margin: 1rem 15%
+  text-align: justify;
+  word-spacing: -0.1rem;
+  margin: 1rem 15%;
 }
 
 /* Project section */
 /* Fixing the vertical nonalignment of the h2 and ul elements*/
 .projects:hover {
-    color: #2a97ad;
-    background-color: rgb(48, 47, 47);
-    transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
+  color: #2a97ad;
+  background-color: rgb(48, 47, 47);
+  transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .projects ul {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .projects ul li {
-    display: block;
+  display: block;
 }
 
 /* Skills section */
 .skills:hover {
-    color: #2a97ad;
-    background-color: rgb(48, 47, 47);
-    transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
+  color: #2a97ad;
+  background-color: rgb(48, 47, 47);
+  transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 i {
-    padding-bottom: 4.5%;
+  padding-bottom: 4.5%;
 }
 
 /* --------------------------------- */
