@@ -171,7 +171,6 @@ h1 {
 
 .about-me:hover {
   color: #2a97ad;
-  background-color: rgb(48, 47, 47);
   transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
 }
 
@@ -185,7 +184,6 @@ h1 {
 /* Fixing the vertical nonalignment of the h2 and ul elements*/
 .projects:hover {
   color: #2a97ad;
-  background-color: rgb(48, 47, 47);
   transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
 }
 
@@ -200,7 +198,6 @@ h1 {
 /* Skills section */
 .skills:hover {
   color: #2a97ad;
-  background-color: rgb(48, 47, 47);
   transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
 }
 
@@ -211,20 +208,18 @@ i {
 
 /* Styles for light theme of 3 sections */
 section.for-light-theme1.light:hover {
-    color: #000;
-    background-color: #2a97ad;
+    color: #BA5700;
+
     transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
   }
 
   .for-light-theme2.light:hover {
-    color: #000;
-    background-color: #2a97ad;
+    color: #BA5700;
     transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
   }
 
   .for-light-theme3.light:hover {
-    color: #000;
-    background-color: #2a97ad;
+    color: #BA5700;
     transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
   }
 /* --------------------------------- */
