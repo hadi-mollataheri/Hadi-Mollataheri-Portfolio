@@ -69,15 +69,15 @@ nav ul li {
 
 .nav-right a {
   margin-right: 0.5em;
+  color: #fff;
 }
+
+.nav-right a.light {
+    color: #000;
+  }
 
 .nav-right a:link {
-  color: #fff;
   text-decoration: none;
-}
-
-.nav-right a.light:link {
-  color: #000;
 }
 
 .nav-right a:visited {
@@ -115,7 +115,7 @@ nav ul li {
   border: none;
   border-radius: 3em;
   cursor: pointer;
-  padding: 0.5em;
+  padding: 0.3em;
 }
 
 button.light {
@@ -175,12 +175,6 @@ h1 {
   transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-section.light:hover {
-  color: #000;
-  background-color: #2a97ad;
-  transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
-}
-
 .about-me .text-about-me {
   text-align: justify;
   word-spacing: -0.1rem;
@@ -214,4 +208,23 @@ i {
   padding-bottom: 4.5%;
 }
 
+
+/* Styles for light theme of 3 sections */
+section.for-light-theme1.light:hover {
+    color: #000;
+    background-color: #2a97ad;
+    transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
+  }
+
+  .for-light-theme2.light:hover {
+    color: #000;
+    background-color: #2a97ad;
+    transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
+  }
+
+  .for-light-theme3.light:hover {
+    color: #000;
+    background-color: #2a97ad;
+    transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
+  }
 /* --------------------------------- */
