@@ -139,7 +139,12 @@ label {
 
 /* Accounts section */
 .accounts {
-    margin-top: 4.125rem;
+    margin-top: 6.125rem;
+    padding-bottom: 4.125rem;
+}
+
+.accounts h3 {
+    margin-bottom: 2rem;
 }
 
 .accounts i {
