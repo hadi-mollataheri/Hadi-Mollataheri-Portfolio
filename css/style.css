@@ -116,6 +116,8 @@ nav ul li {
   border-radius: 3em;
   cursor: pointer;
   padding: 0.3em;
+  /* Make shore every thing will be back to its place after changing of hover */
+  transform: scale(1);
 }
 
 button.light {
