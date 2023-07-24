@@ -11,6 +11,7 @@ body {
   background-color: var(--color-dark-bg);
   color: #fff;
   margin: 1.25rem;
+  transition: 1s;
 }
 
 body.light {
@@ -27,8 +28,9 @@ nav {
   top: 0px;
   left: 0px;
   z-index: 999;
-  padding: 1%;
+  padding: 1% 1% 0 1%;
   background-color: var(--color-dark-bg);
+  transition: 1s;
 }
 
 nav.light {
@@ -58,6 +60,9 @@ nav ul li {
   font-weight: bold;
   font-size: 1.25rem;
   color: #e46e07;
+}
+hr {
+  margin-bottom: 0;
 }
 
 /* Right navigation bar */
@@ -116,6 +121,7 @@ nav ul li {
   border-radius: 3em;
   cursor: pointer;
   padding: 0.3em;
+  transition: .1s;
   /* Make shore every thing will be back to its place after changing of hover */
   transform: scale(1);
 }
