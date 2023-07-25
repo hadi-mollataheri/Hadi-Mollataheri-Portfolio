@@ -22,7 +22,7 @@ body.light {
 
 /* Style the navigation bar */
 nav {
-  width: 100%; /* because all unnecessary space will with position set to fixed */
+  width: 100%; /* because all unnecessary space will remove with position set to fixed */
   box-sizing: border-box;
   position: fixed;
   top: 0px;
@@ -78,8 +78,8 @@ hr {
 }
 
 .nav-right a.light {
-    color: #000;
-  }
+  color: #000;
+}
 
 .nav-right a:link {
   text-decoration: none;
@@ -97,15 +97,7 @@ hr {
   color: #e46e07;
 }
 
-.nav-right a.light:hover {
-  color: #e46e07;
-}
-
 .nav-right a:active {
-  color: #2a97ad;
-}
-
-.nav-right a.light:active {
   color: #2a97ad;
 }
 
@@ -120,8 +112,7 @@ hr {
   border: none;
   border-radius: 3em;
   cursor: pointer;
-  padding: 0.3em;
-  transition: .1s;
+  padding: 0.2em;
   /* Make shore every thing will be back to its place after changing of hover */
   transform: scale(1);
 }
@@ -213,21 +204,20 @@ i {
   padding-bottom: 4.5%;
 }
 
-
 /* Styles for light theme of 3 sections */
 section.for-light-theme1.light:hover {
-    color: #BA5700;
+  color: #ba5700;
 
-    transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
-  }
+  transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
+}
 
-  .for-light-theme2.light:hover {
-    color: #BA5700;
-    transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
-  }
+.for-light-theme2.light:hover {
+  color: #ba5700;
+  transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
+}
 
-  .for-light-theme3.light:hover {
-    color: #BA5700;
-    transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
-  }
+.for-light-theme3.light:hover {
+  color: #ba5700;
+  transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
+}
 /* --------------------------------- */
