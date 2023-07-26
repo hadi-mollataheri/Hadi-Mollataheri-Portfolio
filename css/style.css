@@ -185,6 +185,10 @@ section h2 {
 
 /* Project section */
 /* Fixing the vertical nonalignment of the h2 and ul elements*/
+.projects h2 {
+  margin-bottom: 0px;
+}
+
 .projects:hover {
   color: #2a97ad;
   transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
@@ -192,26 +196,71 @@ section h2 {
 
 .projects ul {
   padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.projects ul li {
-  display: block;
+.projects li {
+  margin: 0;
 }
 
 li.subject {
-  display: inline-block !important;
+  display: inline-flex !important;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
-  margin-top: 1rem;
+  margin-top: 3rem;
   transform: scale(1);
 }
 
 li.subject:hover {
-  color: #e46e07;
+  color: #D2B5FF;
   transform: scale(1.05);
 }
 
-figure {
-  margin-bottom: 3rem;
+div.description {
+  display: none;
+}
+
+/* Classes for JS */
+div.description-tribute {
+  display: block;
+}
+
+div.description-responsive {
+  display: block;
+}
+
+div.description-tour {
+  display: block;
+}
+
+/* Style the pictures */
+figure.description-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 50%;
+  overflow: hidden;
+}
+/* Remove side bullets */
+figure.description-item li {
+  display: inline-block;
+}
+
+figure.description-item li img {
+  /* margin-right: 0 !important; */
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 1rem;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  
 }
 
 figcaption {
