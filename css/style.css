@@ -225,15 +225,15 @@ div.description {
 }
 
 /* Classes for JS */
-div.description-tribute {
+div.show-des-tribute {
   display: block;
 }
 
-div.description-responsive {
+div.show-des-club {
   display: block;
 }
 
-div.description-tour {
+div.show-des-tour {
   display: block;
 }
 

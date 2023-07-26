@@ -18,14 +18,25 @@ themeToggleButton.addEventListener("click", changeTheme);
 
 /* Create clickability  for tribute projects*/
 const tribute = document.querySelector("li.tribute");
-function showDescription() {
+function showDescriptionTribute() {
   document
-    .querySelector("div.description")
-    .classList.toggle("description-tribute");
+    .querySelector("div.des-for-tribute")
+    .classList.toggle("show-des-tribute");
 }
-tribute.addEventListener("click", showDescription);
+tribute.addEventListener("click", showDescriptionTribute);
 
-/* Create clickability  for responsive projects*/
+/* Create clickability  for responsive club projects*/
+const club = document.querySelector("li.club");
+function showDescriptionClub() {
+  document.querySelector("div.des-for-club").classList.toggle("show-des-club");
+}
+club.addEventListener("click", showDescriptionClub);
 
+/* Create clickability  for karbala project projects*/
+const tour = document.querySelector("li.tour");
+function showDescriptionTour() {
+  document.querySelector("div.des-for-tour").classList.toggle("show-des-tour");
+}
+tour.addEventListener("click", showDescriptionTour);
 
 /* Fix the hover button for the light theme for subject of projects */
