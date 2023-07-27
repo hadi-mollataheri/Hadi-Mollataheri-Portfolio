@@ -216,8 +216,12 @@ li.subject {
 }
 
 li.subject:hover {
-  color: #D2B5FF;
+  color: #e46e07;
   transform: scale(1.05);
+}
+
+li.light-hover-projects:hover {
+  color: #204385;
 }
 
 div.description {
@@ -227,14 +231,17 @@ div.description {
 /* Classes for JS */
 div.show-des-tribute {
   display: block;
+  color:#46afff;
 }
 
 div.show-des-club {
   display: block;
+  color:#62c30d;
 }
 
 div.show-des-tour {
   display: block;
+  color:#ff6881;
 }
 
 /* Style the pictures */

@@ -12,6 +12,17 @@ function changeTheme() {
   document.querySelector("section.for-light-theme1").classList.toggle("light");
   document.querySelector("section.for-light-theme2").classList.toggle("light");
   document.querySelector("section.for-light-theme3").classList.toggle("light");
+  /* Fix the hover button for the light theme for subject of projects and 
+  maybe color of the subjects when they span or when their closed */
+  document
+    .querySelector("li.light-mode-tribute-hover")
+    .classList.toggle("light-hover-projects");
+  document
+    .querySelector("li.light-mode-club-hover")
+    .classList.toggle("light-hover-projects");
+  document
+    .querySelector("li.light-mode-tour-hover")
+    .classList.toggle("light-hover-projects");
 }
 
 themeToggleButton.addEventListener("click", changeTheme);
@@ -38,5 +49,3 @@ function showDescriptionTour() {
   document.querySelector("div.des-for-tour").classList.toggle("show-des-tour");
 }
 tour.addEventListener("click", showDescriptionTour);
-
-/* Fix the hover button for the light theme for subject of projects */
