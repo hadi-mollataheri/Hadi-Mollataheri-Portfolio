@@ -308,6 +308,15 @@ figcaption {
   padding-top: 1em;
 }
 
+/* Add media query for mobile S(320px) displays for project section(figcaption) */
+@media only screen and (max-width: 320px) {
+  figcaption {
+    margin: auto 0;
+    text-align: left;
+    word-spacing: normal;
+  }
+}
+
 /* Skills section */
 .skills {
   margin-bottom: 10rem;
