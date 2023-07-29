@@ -213,11 +213,11 @@ section h2 {
     width: 100%;
     margin: 0 auto;
     text-align: left;
-    word-spacing: 0.1em;
+    word-spacing: normal;
   }
 }
-/* Add media query for mobile M(376px) displays for about-me section */
-@media only screen and (max-width: 376px) {
+/* Add media query for mobile M(376px) & L(426px)displays for about-me section */
+@media only screen and (max-width: 426px) {
   .about-me .text-about-me {
     width: 100%;
     margin: 0 auto;
@@ -331,7 +331,20 @@ figcaption {
     margin: auto 0;
     text-align: center;
     word-spacing: normal
+  }
 }
+
+/* Add media query for mobile L(426px) displays for project section(figcaption) */
+@media only screen and (min-width: 377px) and (max-width: 426px) {
+  figcaption {
+    margin: auto ;
+    /* text-align: left; */
+
+    word-spacing: -.1em;
+}
+
+}
+
 
 /* Skills section */
 .skills {
