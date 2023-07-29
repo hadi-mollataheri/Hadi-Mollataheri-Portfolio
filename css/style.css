@@ -216,6 +216,14 @@ section h2 {
     word-spacing: 0.1em;
   }
 }
+/* Add media query for mobile M(376px) displays for about-me section */
+@media only screen and (max-width: 376px) {
+  .about-me .text-about-me {
+    width: 100%;
+    margin: 0 auto;
+    word-spacing: -0.1em;
+  }
+}
 
 /* Project section */
 /* Fixing the vertical nonalignment of the h2 and ul elements*/
@@ -315,6 +323,14 @@ figcaption {
     text-align: left;
     word-spacing: normal;
   }
+}
+
+/* Add media query for mobile M(376px) displays for project section(figcaption) */
+@media only screen and (min-width: 321px) and (max-width: 376px) {
+  figcaption {
+    margin: auto 0;
+    text-align: center;
+    word-spacing: normal
 }
 
 /* Skills section */
