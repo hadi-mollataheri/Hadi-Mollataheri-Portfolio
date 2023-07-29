@@ -45,7 +45,7 @@ nav ul {
   padding: 0 0.625rem;
 }
 
-/* Add media query for 4k(2560 px) displays for nav bar */
+/* Add media query for 4k(2560px) displays for nav bar */
 @media only screen and (min-width: 2560px) {
   nav ul {
     justify-content: flex-start;
@@ -53,6 +53,19 @@ nav ul {
 
   li.nav-left {
     margin-right: 2em;
+  }
+}
+
+/* Add media query for mobile S(320px) displays for nav bar */
+@media only screen and (max-width: 320px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  li.nav-left {
+    margin-bottom: 2em;
   }
 }
 
