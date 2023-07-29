@@ -41,6 +41,17 @@ nav ul {
   padding: 0 0.625rem;
 }
 
+/* Add media query for navigation bar(ul) for 4k(2560px) displays */
+@media only screen and (min-width: 2560px) {
+  nav ul {
+    justify-content: flex-start;
+  }
+
+  li.nav-left {
+    margin-right: 2em;
+  }
+}
+
 nav ul li {
   display: inline-block;
 }
@@ -175,8 +186,8 @@ label {
 }
 
 .submit input.light {
-    background-color: #000;
-    color: #FFF;
+  background-color: #000;
+  color: #fff;
 }
 
 .submit input:hover {
