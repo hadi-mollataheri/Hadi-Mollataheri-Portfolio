@@ -23,7 +23,22 @@ function changeTheme() {
   document
     .querySelector("li.light-mode-tour-hover")
     .classList.toggle("light-hover-projects");
+
+  // Change text color of the projects when they span
+  document
+    .querySelector("div.show-des-tribute")
+    .classList.toggle("light");
+
+    document
+    .querySelector("div.show-des-club")
+    .classList.toggle("light");
+
+    document
+    .querySelector("div.show-des-tour")
+    .classList.toggle("light");
 }
+
+
 
 themeToggleButton.addEventListener("click", changeTheme);
 

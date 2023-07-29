@@ -277,14 +277,26 @@ div.show-des-tribute {
   color: #46afff;
 }
 
+div.show-des-tribute.light {
+  color:  #0074CC 
+}
+
 div.show-des-club {
   display: block;
   color: #62c30d;
 }
 
+div.show-des-club.light {
+  color:  #3A7109;
+}
+
 div.show-des-tour {
   display: block;
   color: #ff6881;
+}
+
+div.show-des-tour.light {
+  color:  #D60024;
 }
 
 /* Style the pictures */
