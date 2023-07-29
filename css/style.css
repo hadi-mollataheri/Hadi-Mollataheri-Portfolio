@@ -66,6 +66,7 @@ nav ul {
 
   li.nav-left {
     margin-bottom: 2em;
+    transform: scale(1.2);
   }
 }
 
