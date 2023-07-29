@@ -4,7 +4,7 @@ html {
 
 body {
   /* Create variables for colors of page --css-variable-name: css property value;  */
-  --color-dark-bg: rgb(48, 47, 47);
+  --color-dark-bg: #302f2f;
   --color-dark-text: #fff;
   --color-dark-bg-hover-button: #e46e07;
   --color-dark-text-active-button: #2a97ad;
@@ -173,7 +173,7 @@ section h2 {
 }
 
 .about-me:hover {
-  color: #2a97ad;
+  color: #2fa9c1;
   transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
 }
 
@@ -190,7 +190,7 @@ section h2 {
 }
 
 .projects:hover {
-  color: #2a97ad;
+  color: #2fa9c1;
   transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
 }
 
@@ -231,17 +231,17 @@ div.description {
 /* Classes for JS */
 div.show-des-tribute {
   display: block;
-  color:#46afff;
+  color: #46afff;
 }
 
 div.show-des-club {
   display: block;
-  color:#62c30d;
+  color: #62c30d;
 }
 
 div.show-des-tour {
   display: block;
-  color:#ff6881;
+  color: #ff6881;
 }
 
 /* Style the pictures */
@@ -267,7 +267,6 @@ figure.description-item li img {
   margin-top: 1rem;
   box-sizing: border-box;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  
 }
 
 figcaption {
@@ -277,12 +276,11 @@ figcaption {
 
 /* Skills section */
 .skills {
-
   margin-bottom: 10rem;
 }
 
 .skills:hover {
-  color: #2a97ad;
+  color: #2fa9c1;
   transition: color 0.6s ease-in-out, background-color 0.3s ease-in-out;
 }
 

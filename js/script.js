@@ -27,7 +27,7 @@ function changeTheme() {
 
 themeToggleButton.addEventListener("click", changeTheme);
 
-/* Create clickability  for tribute projects*/
+/* Create Clickable  for tribute projects*/
 const tribute = document.querySelector("li.tribute");
 function showDescriptionTribute() {
   document
@@ -36,14 +36,14 @@ function showDescriptionTribute() {
 }
 tribute.addEventListener("click", showDescriptionTribute);
 
-/* Create clickability  for responsive club projects*/
+/* Create Clickable  for responsive club projects*/
 const club = document.querySelector("li.club");
 function showDescriptionClub() {
   document.querySelector("div.des-for-club").classList.toggle("show-des-club");
 }
 club.addEventListener("click", showDescriptionClub);
 
-/* Create clickability  for karbala project projects*/
+/* Create Clickable for karbala project projects*/
 const tour = document.querySelector("li.tour");
 function showDescriptionTour() {
   document.querySelector("div.des-for-tour").classList.toggle("show-des-tour");
