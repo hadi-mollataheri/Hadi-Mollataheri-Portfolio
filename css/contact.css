@@ -150,7 +150,7 @@ h1 {
 
 /* Form section */
 form {
-  width: 60%;
+  width: 200px;
   margin: 0 auto;
   border: 0.0625rem solid #fff;
   border-width: medium;
@@ -170,7 +170,7 @@ label {
 .submit input {
   border: none;
   border-radius: 10px;
-  padding: 1.2%;
+  padding: 0.3em;
   transition: 1s;
 }
 
