@@ -207,6 +207,16 @@ section h2 {
   margin: 1rem 15%;
 }
 
+/* Add media query for mobile S(320px) displays for about-me section */
+@media only screen and (max-width: 320px) {
+  .about-me .text-about-me {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    word-spacing: 0.1em;
+  }
+}
+
 /* Project section */
 /* Fixing the vertical nonalignment of the h2 and ul elements*/
 .projects h2 {
