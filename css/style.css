@@ -259,12 +259,12 @@ li.subject {
 }
 
 li.subject:hover {
-  color: #e46e07;
+  color: #ea8731;
   transform: scale(1.05);
 }
 
 li.light-hover-projects:hover {
-  color: #ab5306;
+  color: #fe7700;
 }
 
 div.description {
