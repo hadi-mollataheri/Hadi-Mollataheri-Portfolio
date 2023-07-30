@@ -6,7 +6,7 @@
 `It's simple portfolio website for knowing me and my works better.`
 
 ### Technologies:
-`I'v learned HTML, CSS, JavaScript so far so I used these technologies`
+`I'v learned HTML, CSS, JavaScript so far so I used these technologies.`
 
 ### What I you learned?
 `This project was so useful for me and it was a very good practice and I learned a lot, such as:`
@@ -19,8 +19,10 @@
 `I will learn CSS and JS libraries and frameworks like: Tailwind and React`
 
 ## Acknowledgement
-* So far mainly I learned from [Codecademy](https://codecademy.com) website.
-* I will certainly update this website.
+* So far mainly I learned from [Codecademy](https://codecademy.com) website
+* I will certainly update this website
+* The form in contact page does not connect to a server
+* The Linkedin link in contact page needs to be update
 
 ## License
 `Distributed under the GNU General Public License v3.0. See` [LICENSE.txt](./LICENSE.txt) `for more information.`
