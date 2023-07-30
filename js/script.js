@@ -9,6 +9,7 @@ function changeTheme() {
     .querySelector("button.theme-toggle-button")
     .classList.toggle("light");
   document.querySelector("svg").classList.toggle("light");
+
   document.querySelector("section.for-light-theme1").classList.toggle("light");
   document.querySelector("section.for-light-theme2").classList.toggle("light");
   document.querySelector("section.for-light-theme3").classList.toggle("light");
@@ -23,22 +24,7 @@ function changeTheme() {
   document
     .querySelector("li.light-mode-tour-hover")
     .classList.toggle("light-hover-projects");
-
-  // Change text color of the projects when they span
-  document
-    .querySelector("div.show-des-tribute")
-    .classList.toggle("light");
-
-    document
-    .querySelector("div.show-des-club")
-    .classList.toggle("light");
-
-    document
-    .querySelector("div.show-des-tour")
-    .classList.toggle("light");
 }
-
-
 
 themeToggleButton.addEventListener("click", changeTheme);
 
