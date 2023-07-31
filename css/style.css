@@ -46,7 +46,7 @@ nav ul {
 }
 
 /* Add media query for 4k(2560px) displays for nav bar */
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: 1600px) {
   nav ul {
     justify-content: flex-start;
   }
@@ -209,7 +209,7 @@ section h2 {
 }
 
 /* Add media query for mobile S(320px) displays for about-me section */
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 372px) {
   .about-me .text-about-me {
     width: 100%;
     margin: 0 auto;
@@ -217,8 +217,34 @@ section h2 {
     word-spacing: normal;
   }
 }
-/* Add media query for mobile M(376px) & L(426px)displays for about-me section */
-@media only screen and (max-width: 426px) {
+/* Add media query for mobile M & L displays for about-me section */
+@media only screen and (min-width: 373px) and (max-width: 410px) {
+  .about-me .text-about-me {
+    width: 100%;
+    margin: 0 auto;
+    word-spacing: -0.11em;
+  }
+}
+
+@media only screen and (min-width: 410px) and (max-width: 480px) {
+  .about-me .text-about-me {
+    width: 100%;
+    margin: 0 auto;
+    word-spacing: -0.1em;
+  }
+}
+
+/* Add media query for fablet  displays for about-me section */
+@media only screen and (min-width: 481px) and (max-width: 495px) {
+  .about-me .text-about-me {
+    width: 100%;
+    margin: 0 auto;
+    word-spacing: normal;
+  }
+}
+
+/* Add media query for fablet and tablet displays for about-me section */
+@media only screen and (min-width: 495px) and (max-width: 768px) {
   .about-me .text-about-me {
     width: 100%;
     margin: 0 auto;
@@ -323,22 +349,12 @@ figcaption {
   }
 }
 
-/* Add media query for mobile M(376px) displays for project section(figcaption) */
-@media only screen and (min-width: 321px) and (max-width: 376px) {
+/* Add media query for mobile M and phablet displays for project section(figcaption) */
+@media only screen and (min-width: 321px) and (max-width: 589px) {
   figcaption {
     margin: auto 0;
     text-align: center;
     word-spacing: normal;
-  }
-}
-
-/* Add media query for mobile L(426px) displays for project section(figcaption) */
-@media only screen and (min-width: 377px) and (max-width: 426px) {
-  figcaption {
-    margin: auto;
-    /* text-align: left; */
-
-    word-spacing: -0.1em;
   }
 }
 
